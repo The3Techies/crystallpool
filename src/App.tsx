@@ -24,10 +24,9 @@ const ScrollToTop = () => {
 function App() {
   return (
     <div className="font-Cairo">
-      <HeaderIfo />
-      <NaveBar />
       <BrowserRouter>
         <ScrollToTop />
+        <NaveBar />
         <Routes>
           <Route path="/AboutUs" element={<AboutUs />} />
           <Route path="/Blog" element={<Blog />} />
@@ -37,8 +36,9 @@ function App() {
           <Route path="/Projects" element={<Projects />} />
           <Route path="/Services" element={<Services />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
-      <Footer />
+     
     </div>
   );
 }

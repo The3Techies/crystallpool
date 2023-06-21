@@ -1,8 +1,11 @@
+import Hero from "./Hero";
+import ServicesList from "./ServicesList";
 
 export default function Services() {
   return (
     <div>
-      <h1>Services</h1>
+      <Hero />
+      <ServicesList />
     </div>
   );
 }

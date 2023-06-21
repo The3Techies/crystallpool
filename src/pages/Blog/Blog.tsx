@@ -1,8 +1,11 @@
+import Hero from "./Hero";
+import BlogList from "./BlogList";
 
 export default function Blog() {
   return (
     <div>
-      <h1>Blog</h1>
+      <Hero />
+      <BlogList />
     </div>
   );
 }

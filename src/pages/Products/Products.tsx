@@ -1,7 +1,13 @@
+import Hero from "./Hero";
+import ProductsList from "./ProductsList";
+import PostOrderServices from "./postOrderServices";
+
 export default function Products() {
   return (
     <div>
-      <h1>Products</h1>
+      <Hero />
+      <ProductsList />
+      <PostOrderServices />
     </div>
   );
 }
