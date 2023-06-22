@@ -7,6 +7,8 @@ function Navbar() {
 
   function toggleMenu() {
     setIsMenuOpen(!isMenuOpen);
+    if(!isMenuOpen) setNavBarStyly("border-b-2 bg-[#26547C]")
+    else setNavBarStyly("")
   }
 
   let navigate = useNavigate();
@@ -122,7 +124,7 @@ function Navbar() {
         </div>
         <div
           className={`${isMenuOpen ? "absolute" : "hidden"
-            } w-full lg:block lg:w-auto right-0 top-10 z-50 `}
+            } w-full lg:block lg:w-auto right-0 top-12 z-50 bg-[#26547C] lg:bg-transparent` }
           id="navbar-solid-bg"
         >
           <ul className="flex flex-col py-2 lg:py-0 lg:flex-row font-medium mt-4 lg:mr-6 lg:mt-0 ">

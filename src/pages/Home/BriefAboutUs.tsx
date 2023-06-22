@@ -18,7 +18,7 @@ export default function BriefAboutUs() {
               <h1 className=" text-[#06D6A0]  font-bold text-2xl">100+</h1>
               <h1 className="font-bold text-2xl">مسبح</h1>
             </div>
-            <p className="border-r-2  border-[#06D6A0] w-fit p-4 text-xs lg:text-base">تم تصميمها وتسليمها بجميع الكماليات الحديثة وإكسسوارات حمامات السباحة المتميزة لعملائنا المرموقين.</p>
+            <p className="border-r-2  border-[#06D6A0] w-fit p-4 text-xs md:text-base">تم تصميمها وتسليمها بجميع الكماليات الحديثة وإكسسوارات حمامات السباحة المتميزة لعملائنا المرموقين.</p>
           </div>
 
           <div className="flex ">
@@ -26,7 +26,7 @@ export default function BriefAboutUs() {
               <h1 className=" text-[#06D6A0] font-bold text-2xl">10+</h1>
               <h1 className="font-bold text-2xl">أعوام</h1>
             </div>
-            <p className="border-r-2  border-[#06D6A0] w-fit p-4 text-xs lg:text-base">تتمتع Crystal pool كشركة رائدة في السوق في بناء حمامات السباحة والتجديد والصيانة والخدمات ذات الصلة لمختلف مشاريع المسابح الشخصية والسكنية والتجارية.</p>
+            <p className="border-r-2  border-[#06D6A0] w-fit p-4 text-xs md:text-base">تتمتع Crystal pool كشركة رائدة في السوق في بناء حمامات السباحة والتجديد والصيانة والخدمات ذات الصلة لمختلف مشاريع المسابح الشخصية والسكنية والتجارية.</p>
           </div>
 
           <div className="flex border-y-2 border-[#06D6A0]">
@@ -34,7 +34,7 @@ export default function BriefAboutUs() {
               <h1 className=" text-[#06D6A0]  font-bold text-2xl">24/7</h1>
               <h1 className="font-bold text-2xl">خدمة</h1>
             </div>
-            <p className="border-r-2  border-[#06D6A0] w-fit p-4 text-xs lg:text-base">الجودة لا مثيل لها ، وكفاءة ، وعلى قدم المساواة مع المعايير العالمية لإبقائنا فوق البقية في صناعة إنشاء حمامات السباحة.</p>
+            <p className="border-r-2  border-[#06D6A0] w-fit p-4 text-xs md:text-base">الجودة لا مثيل لها ، وكفاءة ، وعلى قدم المساواة مع المعايير العالمية لإبقائنا فوق البقية في صناعة إنشاء حمامات السباحة.</p>
           </div>
         </div>
 

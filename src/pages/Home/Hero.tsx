@@ -54,11 +54,11 @@ export default function Hero() {
           كريستال بول - وجهتك النهائية
         </h1>
         <div className="flex flex-col lg:flex-row justify-between items-center">
-          <p className="md:w-[40rem] md:max-w-none max-w-[20rem] md:text-2xl text-sm">
+          <p className="md:w-[40rem] lg:max-w-none max-w-[20rem] lg:text-2xl md:text-xl text-sm self-start lg:self-center">
             لإنشاء حمامات سباحة مذهلة ونوافير آسرة ونوادي صحية متطورة. لتحقيق
             أحلامك المائية في الحياة.
           </p>
-          <button className="bg-[#06D6A0] h-fit w-fit px-4 py-2 rounded-lg md:text-2xl text-sm mt-2 md:mt-0 shadow-[4px_4px_10px_2px_rgba(0,0,0,0.3)] shadow-[#fff] hover:shadow-[#06D6A0]" onClick={() => navigate("/ContactUs")}>تواصل معنا</button>
+          <button className="bg-[#06D6A0] h-fit w-fit px-4 py-2 rounded-lg md:text-2xl text-sm mt-2 lg:mt-0 shadow-[4px_4px_10px_2px_rgba(0,0,0,0.3)] shadow-[#fff] hover:shadow-[#06D6A0]" onClick={() => navigate("/ContactUs")}>تواصل معنا</button>
         </div>
       </div>
 

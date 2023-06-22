@@ -21,16 +21,19 @@ export default function BriefServices() {
 
   const HtmlServices: Array<JSX.Element> = services.map(({ title, paragraph }, i) => {
     return (
-      <div key={i} className="flex flex-col items-center lg:block">
-        <img src={`/ImgsHome/service${i+1}.webp`} alt={`service${i+1}`} className=" lg:hidden w-full h-40 mb-4 rounded-xl ml-2 shadow-[10px_10px_10px_2px_rgba(0,0,0,0.3)] shadow-[#26547C] " />
-        <h1 className="text-2xl font-bold">{title}</h1>
-        <p className=" lg:text-base text-sm text-center lg:text-right">{paragraph}</p>
+      <div key={i} className="flex flex-col-reverse items-center lg:block">
+        <img src={`/ImgsHome/service${i + 1}.webp`} alt={`service${i + 1}`} className=" lg:hidden w-[70%] max-w-lg h-40 mb-4 rounded-xl ml-2 shadow-[10px_10px_10px_2px_rgba(0,0,0,0.3)] shadow-[#26547C] " />
+        <div className="flex flex-col items-center lg:items-start lg:mb-0 mb-2">
+          <h1 className="text-2xl font-bold">{title}</h1>
+          <p className=" md:text-base text-sm text-center lg:text-right">{paragraph}</p>
+        </div>
       </div>
 
-    )})
-  
+    )
+  })
 
-    return (
+
+  return (
     <div className=" bg-[#FFFFFF] mt-4 lg:mb-16 mb-4">
 
       <h1 className=" text-center text-[#26547C] font-bold text-3xl mb-2">خدماتنا</h1>
@@ -45,12 +48,12 @@ export default function BriefServices() {
         <div className="lg:block hidden ">
 
           <div className="h-48 w-96 flex mb-4 select-none">
-            <img src="/ImgsHome/service1.webp" alt="service1" className="w-[50%] rounded-xl ml-2 shadow-[10px_10px_10px_2px_rgba(0,0,0,0.3)] shadow-[#26547C]"/>
+            <img src="/ImgsHome/service1.webp" alt="service1" className="w-[50%] rounded-xl ml-2 shadow-[10px_10px_10px_2px_rgba(0,0,0,0.3)] shadow-[#26547C]" />
             <img src="/ImgsHome/service2.webp" alt="service2" className="w-[50%] rounded-xl mr-2 shadow-[10px_10px_10px_2px_rgba(0,0,0,0.3)] shadow-[#26547C]" />
           </div>
 
           <div className="h-48 w-96 flex justify-center select-none">
-            <img src="/ImgsHome/service3.webp" alt="service3" className="rounded-xl w-[90%] shadow-[10px_10px_10px_2px_rgba(0,0,0,0.3)] shadow-[#26547C]"/>
+            <img src="/ImgsHome/service3.webp" alt="service3" className="rounded-xl w-[90%] shadow-[4px_4px_10px_2px_rgba(0,0,0,0.3)] shadow-[#26547C]" />
           </div>
 
         </div>

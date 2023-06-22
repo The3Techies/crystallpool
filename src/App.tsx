@@ -1,7 +1,6 @@
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 
-import HeaderIfo from "./Components/HeaderIfo";
 import NaveBar from "./Components/NaveBar";
 import Footer from "./Components/Footer";
 
