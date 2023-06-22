@@ -1,6 +1,6 @@
 import Hero from "./Hero";
 import ProductsList from "./ProductsList";
-import PostOrderServices from "./postOrderServices";
+import PostOrderServices from "./PostOrderServices";
 
 export default function Products() {
   return (
