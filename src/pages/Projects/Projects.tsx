@@ -1,11 +1,11 @@
 import Hero from "./Hero";
-import ProductsList from "../Products/ProductsList";
+import ProjectsList from "./ProjectsList";
 
 export default function Projects() {
   return (
     <div>
       <Hero />
-      <ProductsList />
+      <ProjectsList />
     </div>
   );
 }

@@ -16,10 +16,11 @@ export default function Hero() {
     index = active;
     setShouldRunEffect(false);
     const id: any = setInterval(() => {
-      if (index < imgs.length - 1) index++;
+      if (index <  imgs.length - 1) index++;
       else index = 0;
       setImg(imgs[index]);
-      setActive(index);
+      setActive(index+1);
+      console.log(index)
     }, 3000);
     setIntervalId(id);
     return () => clearInterval(id);
@@ -32,7 +33,7 @@ export default function Hero() {
       setShouldRunEffect(true);
     }
     index = i;
-    setImg(imgs[index]);
+    setImg(imgs[index-1]);
     setActive(index);
   }
 
