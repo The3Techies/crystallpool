@@ -107,7 +107,7 @@ export default function ProductsList() {
         <div className="w-full h-[85%] flex flex-row-reverse gap-2 items-center mt-2 ">
           <BsFillArrowLeftCircleFill className="lg:text-6xl text-4xl cursor-pointer" onClick={() => moveLeft(i, index1, setIndex1, index2, setIndex2, index3, setIndex3)} />
 
-          <div className='h-full lg:w-[30%] w-[100%] bg-[#fff] rounded-lg flex flex-col items-center'>
+          <div className='h-full w-[100%] md:w-[50%] lg:w-[30%]  bg-[#fff] rounded-lg flex flex-col items-center'>
             <img src={products[index1].img} alt="product img" className='h-[50%] mt-1 select-none' />
             <h1 className='text-3xl text-[#26547C] font-bold'>{products[index1].name}</h1>
             <p className='text-xs text-center text-[#26547C] mt-1 mx-2'>{products[index1].description}</p>
@@ -116,7 +116,7 @@ export default function ProductsList() {
           </div>
 
           {(products.length > 2) ?
-            <div className='h-full w-[30%] bg-[#fff] rounded-lg flex-col items-center hidden lg:flex'>
+            <div className='h-full lg:w-[30%] md:w-[50%]  bg-[#fff] rounded-lg flex-col items-center hidden md:flex'>
               <img src={products[index2].img} alt="product img" className='h-[50%] mt-1 select-none' />
               <h1 className='text-3xl text-[#26547C] font-bold'>{products[index2].name}</h1>
               <p className='text-xs text-center text-[#26547C] mt-1 mx-2'>{products[index2].description}</p>

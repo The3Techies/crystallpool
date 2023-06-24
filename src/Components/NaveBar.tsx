@@ -93,7 +93,7 @@ function Navbar() {
   }, []);
 
   return (
-    <nav className={" w-full p-2 lg:p-0 sticky top-0  " + navBarStyly}>
+    <nav className={" w-full p-2 lg:p-0 sticky top-0 z-[100] " + navBarStyly}>
       <div className="w-full flex lg:flex-row-reverse flex-wrap items-center justify-between mx-auto lg:py-4">
         <button
           type="button"
