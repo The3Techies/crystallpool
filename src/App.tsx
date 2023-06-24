@@ -22,7 +22,7 @@ const ScrollToTop = () => {
 
 function App() {
   return (
-    <div className="font-Cairo">
+    <div className="font-Cairo ">
       <BrowserRouter>
         <ScrollToTop />
         <NaveBar />
