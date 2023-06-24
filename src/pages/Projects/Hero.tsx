@@ -1,6 +1,5 @@
 export default function Hero(props: any) {
 
-    console.log(props.projectImg)
 
     return (
         <div className="w-full">
