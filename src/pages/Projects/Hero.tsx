@@ -1,5 +1,6 @@
 export default function Hero(props: any) {
 
+    console.log(props.projectImg)
 
     return (
         <div className="w-full">
@@ -7,7 +8,7 @@ export default function Hero(props: any) {
             <div className="relative h-60 flex items-start justify-center border-t-[1px]">
                 <h1 className="text-[#fff] font-bold lg:text-4xl md:text-3xl text-2xl z-10 mt-10">{props.projectName}</h1>
                 <div className={`absolute inset-0 z-0 bg-[url(${props.projectImg})] object-cover bg-no-repeat bg-top  `}></div>
-                <div className="absolute inset-0 z-0 bg-[url(/ImgsProjexts/Vector.webp)] object-cover bg-no-repeat bg-top"></div>
+                <div className="absolute inset-0 z-0 bg-[url(/ImgsProjects/Vector.webp)] object-cover bg-no-repeat bg-top"></div>
             </div>
         </div>
     )
