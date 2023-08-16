@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import { useEffect } from "react";
+import "./App.css"
 
 import NaveBar from "./Components/NaveBar";
 import Footer from "./Components/Footer";
@@ -22,7 +23,7 @@ const ScrollToTop = () => {
 
 function App() {
   return (
-    <div className="font-Cairo ">
+    <div className="font-Cairo bg-[#F8EDEB]">
       <BrowserRouter>
         <ScrollToTop />
         <NaveBar />

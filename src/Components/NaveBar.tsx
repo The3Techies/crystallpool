@@ -7,7 +7,7 @@ function Navbar() {
 
   function toggleMenu() {
     setIsMenuOpen(!isMenuOpen);
-    if(!isMenuOpen) setNavBarStyly("border-b-2 bg-[#26547C]")
+    if(!isMenuOpen) setNavBarStyly("border-b-2 bg-[#c8ffff]")
     else setNavBarStyly("")
   }
 
@@ -63,7 +63,7 @@ function Navbar() {
             "h-8 px-2 rounded lg:border-0 lg:pt-[2px] " +
             (useLocation().pathname === route
               ? " text-[#06D6A0] "
-              : "text-white ") +
+              : "text-black ") +
             (name === "تواصل معنا" ? "text-[#000] " : " ")
           }
         >
@@ -124,7 +124,7 @@ function Navbar() {
         </div>
         <div
           className={`${isMenuOpen ? "absolute" : "hidden"
-            } w-full lg:block lg:w-auto right-0 top-12 z-50 bg-[#26547C] lg:bg-transparent` }
+            } w-full lg:block lg:w-auto right-0 top-12 z-50 bg-[#c8ffff] lg:bg-transparent` }
           id="navbar-solid-bg"
         >
           <ul className="flex flex-col py-2 lg:py-0 lg:flex-row font-medium mt-4 lg:mr-6 lg:mt-0 ">

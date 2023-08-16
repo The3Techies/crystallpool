@@ -1,0 +1,6 @@
+.vignette {
+  position: relative;
+  top: 0;
+  left: 0;
+  box-shadow: 0 0 200px rgba(28, 28, 28, 0.9) inset;
+}
