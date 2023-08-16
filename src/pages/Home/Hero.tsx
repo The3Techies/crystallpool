@@ -48,9 +48,9 @@ export default function Hero() {
   })
 
   return (
-    <div className={`w-full flex flex-col justify-end ${img} h-screen bg-cover -mt-20 `} >
+    <div className={`w-full flex flex-col justify-end ${img} h-screen object-cover object-center bg-cover -mt-20 vignette `} >
 
-      <div className="mx-2 lg:mx-24 mb-24 text-[#fff]">
+      <div className="mx-2 lg:mx-16 mb-8 text-[#fff]">
         <h1 className="font-bold md:font-extrabold md:text-3xl">
           كريستال بول - وجهتك النهائية
         </h1>
